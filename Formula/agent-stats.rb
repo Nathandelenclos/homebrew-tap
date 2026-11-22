@@ -1,17 +1,17 @@
 class AgentStats < Formula
   desc "Usage statistics for AI coding agents from local session logs"
   homepage "https://github.com/Nathandelenclos/agent-stats"
-  version "0.6.0"
+  version "0.7.0"
   license "MIT"
 
   on_intel do
-    url "https://github.com/Nathandelenclos/agent-stats/releases/download/v0.6.0/agent-stats_0.6.0_darwin_amd64.tar.gz"
-    sha256 "9d24e359e1dbb82fc36ac5292f418bef1b99d696679580c8f12e1974ebac9275"
+    url "https://github.com/Nathandelenclos/agent-stats/releases/download/v0.7.0/agent-stats_0.7.0_darwin_amd64.tar.gz"
+    sha256 "80f4139aa06969aa8c3150b75f3eb4c48c63d5c28f262fa918c61e070ddd1193"
   end
 
   on_arm do
-    url "https://github.com/Nathandelenclos/agent-stats/releases/download/v0.6.0/agent-stats_0.6.0_darwin_arm64.tar.gz"
-    sha256 "970b457dc064d4dd7e6bfc7479d0deefc56961b76bc32f0d4d825abc8b731327"
+    url "https://github.com/Nathandelenclos/agent-stats/releases/download/v0.7.0/agent-stats_0.7.0_darwin_arm64.tar.gz"
+    sha256 "e055eb001f907e2618099b3354bddb37f5cdacbe8f5248dad116df4303f8749f"
   end
 
   depends_on :macos
